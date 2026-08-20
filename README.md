@@ -62,6 +62,23 @@ Public-Transport-Delay-Analysis/
 └── README.md
 ```
 
+## 💡 Key Business Insights
+
+- **Weekday is the strongest driver of delay found in this dataset.** Average arrival delay ranges from 12.31 min to 14.31 min across the week — a 2-minute (~15%) swing — making it the most actionable pattern identified. (Note: the numeric weekday-to-day mapping wasn't confirmed in the source data, so specific days aren't named here.)
+- **Season shows a moderate effect.** Autumn trips average 13.89 min delay vs. 12.72 min in Summer — worth monitoring but not a dominant factor.
+- **Event type shows a moderate, if noisy, pattern.** Protests and parades correlate with the highest delays (13.90 and 13.62 min), while concerts, sports, and festivals actually show *lower* delays than trips with no nearby event — possibly reflecting better transit planning around scheduled events, though this needs further investigation before drawing firm conclusions.
+- **Transport type, weather condition, and congestion level have minimal individual impact on delay** (spreads of 0.46–0.75 min, roughly 3–6% of the average). Notably, "High" congestion trips were *not* the most delayed — congestion index alone is a weak predictor here.
+- **Peak hour has essentially no effect on delay** (13.30 vs. 13.36 min) — a negligible 0.06-minute difference.
+- **Route_12 is the single worst-performing route** at 14.29 min average delay, 2.48 minutes worse than the best route (Route_10 at 11.81 min) — a route-specific issue worth investigating independently of system-wide factors.
+- **74.95% of all trips experienced some delay**, though the *magnitude* of delay is driven more by day-to-day and route-specific variation than by transport mode, weather, or congestion alone.
+
+
+Note: these insights are based on comparing average delays across categories, not formal statistical significance testing — so some smaller patterns (like Season or Event Type) should be treated as directional rather than confirmed.
+
+## 📝 Conclusion
+Across ~2,000 trips, delays appear to be driven primarily by **when** (weekday, season) and **where** (specific routes) rather than **how** people travel or prevailing traffic/weather conditions. Transport type, weather, congestion, and peak hour each individually explain very little variation in delay — suggesting that isolated operational factors aren't the main lever for improvement. Instead, targeted investigation into high-delay weekdays and consistently underperforming routes like Route_12 would likely yield the most actionable improvements for transit reliability.
+
+
 ## 🚀 How to Use
 1. Download `Public_Transport_Delay_Dashboard.xlsx` and open it in Microsoft Excel (slicers and PivotCharts work best in Excel, not Google Sheets).
 2. Go to the **Dashboard** sheet.
