@@ -41,8 +41,8 @@ The workbook includes dedicated pivot sheets analyzing delay by:
 ## 📈 Dashboard
 A consolidated **Dashboard** sheet brings all of the above together into a single interactive view with charts and slicers, so you can filter delay trends by transport type, weather, season, and more without touching the underlying pivot tables.
 
-## 📁 Repository Structure
-```
+Public-Transport-Delay-Analysis/
+│
 ├── Public-Transport-Delay-Analysis/
 │   ├── Public_Transport_Delay_Dashboard.xlsx
 │   ├── RawData.xlsx
@@ -57,6 +57,8 @@ A consolidated **Dashboard** sheet brings all of the above together into a singl
 │   ├── TranportType_Departure.xlsx
 │   ├── Weather_Arrival.xlsx
 │   └── Weather_Departure.xlsx
+│
+├── Dashboard.png
 └── README.md
 ```
 
