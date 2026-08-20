@@ -37,6 +37,10 @@ The workbook includes dedicated pivot sheets analyzing delay by:
 - **Holiday**
 - **Top 5 delayed routes**
 
+## 📈 Dashboard
+A consolidated **Dashboard** sheet brings all of the above together into a single overview view with KPI cards and charts, so you can see delay trends across transport type, weather, season, congestion, weekday, and top problem routes at a glance.
+
+```
 Public-Transport-Delay-Analysis/
 │
 ├── Public-Transport-Delay-Analysis/
@@ -56,9 +60,7 @@ Public-Transport-Delay-Analysis/
 │
 ├── Dashboard.png
 └── README.md
-
-## 📈 Dashboard
-A consolidated **Dashboard** sheet brings all of the above together into a single overview view with KPI cards and charts, so you can see delay trends across transport type, weather, season, congestion, weekday, and top problem routes at a glance.
+```
 
 ## 💡 Key Business Insights
 
@@ -82,4 +84,3 @@ Across ~2,000 trips, delays appear to be driven primarily by **when** (weekday, 
 
 ---
 *Feel free to connect if you have suggestions or feedback on this project!*
-
