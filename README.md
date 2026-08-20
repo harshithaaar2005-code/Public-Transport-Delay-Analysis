@@ -43,12 +43,25 @@ A consolidated **Dashboard** sheet brings all of the above together into a singl
 
 ## 📁 Repository Structure
 ```
-├── Public_Transport_Delay_Dashboard.xlsx    # Full workbook: raw data, pivot analysis sheets, and dashboard
+├── Public-Transport-Delay-Analysis/
+│   ├── Public_Transport_Delay_Dashboard.xlsx
+│   ├── RawData.xlsx
+│   ├── Congestion-Arrival.xlsx
+│   ├── EventType_Arrival.xlsx
+│   ├── Holiday_Arrival.xlsx
+│   ├── PeakHour_Arrival.xlsx
+│   ├── PeakHour_Departure.xlsx
+│   ├── Season_Arrival.xlsx
+│   ├── Top5Routes.xlsx
+│   ├── TransportType_Arrival.xlsx
+│   ├── TranportType_Departure.xlsx
+│   ├── Weather_Arrival.xlsx
+│   └── Weather_Departure.xlsx
 └── README.md
 ```
 
 ## 🚀 How to Use
-1. Download `Dashboard.xlsx` and open it in Microsoft Excel (slicers and PivotCharts work best in Excel, not Google Sheets).
+1. Download `Public_Transport_Delay_Dashboard.xlsx` and open it in Microsoft Excel (slicers and PivotCharts work best in Excel, not Google Sheets).
 2. Go to the **Dashboard** sheet.
 3. Use the slicers to filter by transport type, weather, weekday, season, or peak hour and explore how delays shift.
 4. Individual pivot sheets (e.g., `Weather_Arrival`, `RoutePerformance`) can be explored for a deeper breakdown of any one factor.
